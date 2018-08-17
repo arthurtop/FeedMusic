@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (4.6.0)
+  - CropViewController (2.3.6)
+  - Kingfisher (4.6.1)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - ObjectMapper (3.1.0)
+  - Result (3.2.4)
+  - RxSwift (4.1.1)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CropViewController
+  - Kingfisher
+  - Moya
+  - ObjectMapper
+  - RxSwift
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CropViewController
+    - Kingfisher
+    - Moya
+    - ObjectMapper
+    - Result
+    - RxSwift
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  CropViewController: e6d4bd512d15a1709e9ddf71fe7d98ffd05dda0f
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: c0c3f1b2d48b6352757324e5cdbe1395cda10c2f
+
+COCOAPODS: 1.5.3

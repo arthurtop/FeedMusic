@@ -1,0 +1,27 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target ‘BabyTime’ do
+    
+    #Networking
+    pod 'Alamofire'
+    pod 'Kingfisher'
+    pod 'SwiftyJSON'
+    #pod 'TLPhotoPicker'
+    pod 'ObjectMapper'
+    
+    #UI
+    pod 'SnapKit'
+    pod 'CropViewController'
+    
+    
+    #Rx  ReactiveX（简写: Rx） 是一个可以帮助我们简化异步编程的框架。
+    pod 'RxSwift'
+    
+    #alamofire 网络封装
+    pod 'Moya'
+    
+    
+    
+end
