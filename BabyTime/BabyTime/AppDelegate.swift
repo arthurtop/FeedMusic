@@ -44,3 +44,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+
+/*
+ 自定义log的目的是在debug模式下打印信息 在release环境下不打印 swift没有宏定义
+Mark -- 自定义log
+ 这是一个全局函数 在任何文件都能够直接使用
+ */
+func XLZLog<T>(message:T, fileName:String = #file, funcName : String = #function, lineNum : Int = #line)  {
+     //获取打印所在文件 #file获取的全路径
+//     let file = (#file as NSString).lastPathComponent
+     //获取打印所在的方法
+     let funcName = #function
+     //获取所在行
+     
+     let lineNum = #line
+     
+    #if SLDEBUG
+    let filePath = (fileName as NSString).lastPathComponent
+    //print("\(filePath):\(funcName):\(lineNum)-\(message)")
+    print("Log-方法:\(funcName) 文件:\(filePath) 行:\(lineNum) log:\(message)")//我们已经打印了行数，所以就不用打印方法名了
+   #endif
+    
+}
+
+
+
